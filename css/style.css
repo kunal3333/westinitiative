@@ -1,0 +1,237 @@
+/* topbar */
+.topnav-bar {
+    background: #111111;
+    color: white;
+    height: 49px;
+}
+h2.text {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+h2.address {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.58px;
+}
+.address span {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+}
+.addres {
+    display: flex;
+    align-items: flex-start;
+    gap: 10.47px;
+}
+.row.set {
+    padding: 15px 0 15px 0;
+}
+.row.set .col:not(:first-child) {
+    margin-left: 40px;
+}
+.row.set .col {
+    flex: 1; 
+    position: relative; 
+}
+.row.set .col:nth-child(3)::before, .row.set .col:nth-child(4)::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -20px;
+    width: 1px;
+    height: 100%;
+    border: 1px solid #4F4F4F;
+}
+
+/* menubar */
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    justify-content: flex-end;
+}
+a.nav-link.active {
+    color: #C49421 !important;
+    font-family: Rajdhani;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.97px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+a.nav-link {
+    font-family: Rajdhani;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: black;
+}
+button.btn.btn-outline-success {
+    background-color: #C49421 !important;
+    border: 1px solid #C49421 !important;
+    color: white;
+    top: 67px;
+    left: 1467px;
+    padding: 13px 27px 13px 27px;
+    gap: 10px;
+    border-radius: 4px;
+    font-family: 'Rajdhani';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.97px;
+}
+ul.navbar-nav {
+    display: flex;
+    gap: 40px;
+}
+ul.navbar-nav:nth-child(4){
+    display: flex;
+    gap: 50px;
+}
+a.nav-link.last {
+    margin-right: 60px;
+}
+
+/* banner one */
+.bg {
+    background-image: url(../images/banner-one.png);
+    background-size: cover;
+}
+.container-fluid {
+    padding: 0;
+}
+.container.bg-text {
+    padding-top: 167px;
+    padding-bottom: 167px;
+}
+.container.bg-text span {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+.d-flex.align-items-center.flex-row {
+    gap: 10px;
+}
+h2.one {
+    font-family: 'Rajdhani';
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 107.18px;
+    text-align: left;
+    color: #C49421;
+}
+h2.two {
+    font-family: 'Rajdhani';
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 107.18px;
+    text-align: left;
+    color: white;
+}
+.container.bg-text p {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    color: white;
+    padding-bottom: 40px;
+}
+/* banner two*/
+.banner-two span {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.container.banner-two {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.col.banner-two h2 {
+    font-family: 'Rajdhani';
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 68.9px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.col.banner-two p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    width: 720px;
+}
+.col.left img {
+    width: 100%;
+}
+.col.banner-two button.btn.btn-outline-success {
+    margin-top: 44px;
+}
+
+/* banner three */
+.banner-three {
+    background-color: black;
+}
+.banner-three h2 {
+    font-family: 'Rajdhani';
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 68.9px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.banner-three p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 12px;
+}
+.banner-three-bottom .col h2 {
+    font-family: 'Rajdhani';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+}
+.banner-three-bottom .col p {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: #111111;
+}
+.banner-three-bottom .col {
+    border: 1px solid white;
+    background-color: white;
+    width: 306px;
+height: 361px;
+top: 2224px;
+left: 312px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+background: rgba(255, 255, 255, 1);
+box-shadow: 0px 0px 7px 0px rgba(43, 52, 59, 0.08);
+
+}
