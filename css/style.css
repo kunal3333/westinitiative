@@ -154,6 +154,7 @@ h2.two {
     text-align: left;
     text-transform: uppercase;
     margin-bottom: 4px;
+    color: black;
 }
 .container.banner-two {
     margin-top: 120px;
@@ -193,7 +194,8 @@ h2.two {
     line-height: 68.9px;
     text-align: center;
     color: white;
-    padding-top: 100px;
+    padding-top: 70px;
+    padding-bottom: 14px;
 }
 .banner-three p {
     font-family: 'Roboto';
@@ -204,7 +206,45 @@ h2.two {
     color: white;
     margin-top: 12px;
 }
-.banner-three-bottom .col h2 {
+
+img.circle-image-inner {
+    position: absolute;
+    width: 43.82px;
+    height: 43.82px;
+    top: 23px;
+    left: 22px;
+    gap: 0px;
+    opacity: 0px;
+}
+.col.set {
+    border: 1px solid white;
+    border-bottom: 3px solid black;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 7px 0px rgba(43, 52, 59, 0.08);
+}
+.round {
+    position: relative;
+}
+.circle-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 91px;
+    background-color: white;
+    margin: -50px auto 20px;
+    top: 0px;
+    position: absolute;
+    left: 40%;
+    border: 3px solid black;
+}
+.lead-points  .row {
+    gap: 24px;
+}
+.banner-three-bottom {
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.round h2 {
     font-family: 'Rajdhani';
     font-size: 22px;
     font-weight: 700;
@@ -212,26 +252,182 @@ h2.two {
     text-align: center;
     color: black;
 }
-.banner-three-bottom .col p {
+.round p {
     font-family: 'Roboto';
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0.10000000149011612px;
     text-align: center;
-    color: #111111;
+    color: rgba(102, 102, 102, 1);
+    padding: 0 25px 35px 25px;
 }
-.banner-three-bottom .col {
-    border: 1px solid white;
-    background-color: white;
-    width: 306px;
-height: 361px;
-top: 2224px;
-left: 312px;
-gap: 0px;
-border-radius: 10px 0px 0px 0px;
-opacity: 0px;
-background: rgba(255, 255, 255, 1);
-box-shadow: 0px 0px 7px 0px rgba(43, 52, 59, 0.08);
+/* banner four  */
+.container.four {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.col.left span {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+    text-align: left;
+}
+.col.banner-two.right {
+    margin-top: 129px;
+}
+button.setting-one {
+    width: 58.33px;
+    height: 58.33px;
+    background: rgba(196, 148, 33, 1);
+    border: none;
+    border-radius: 80px;
+    position: relative;
+    top: -50%;
+    left: 40%;
+}
+.container-fluid.five .row {
+    padding: 0px;
+    margin: unset;
+}
+.container-fluid.five .col.left {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.col.banner-two.five {
+    background-color: black;
+}
+.col.banner-two.five.bg{
+    background-image: url(../images/image\ 26.png);
+    padding-left: 24px;
+}
+.col.banner-two.five.bg .d-flex.align-items-center.flex-row {
+    margin-top: 200px;
+}
+.col.banner-two.five.bg p, span {
+    color: white;
+}
+.col.banner-two.five.bg h2 {
+    color: rgba(196, 148, 33, 1);
+}
+span.f {
+    font-family: 'Rajdhani';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28.07px;
+    text-align: left;
+    text-transform: none;
+}
+.col.banner-two.five.bg p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
 
+
+/* news section  */
+.new-section {
+    display: flex;
+    gap: 24px;
+    margin-top:50px;
+}
+.container.six {
+    margin-top: 120px;
+}
+.container.six span {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+}
+.container.six h2{
+font-family: 'Rajdhani';
+font-size: 54px;
+font-weight: 700;
+line-height: 68.9px;
+text-align: left;
+margin-top: 4px;
+}
+.container.six p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(102, 102, 102, 1);
+    margin: 20px 0 20px;
+}
+.card-body {
+    width: 416px;
+    height: 330px;
+    border-radius: 10px;
+}
+  
+p.six {
+    font-family: 'Rajdhani';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19.14px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgba(17, 17, 17, 1);
+}
+h5.card-title {
+    font-family: Rajdhani;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28.07px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    padding-bottom: 13px;
+}
+p.card-text {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+a.btn.btn-primary {
+    color: rgba(196, 148, 33, 1);
+    background-color: unset;
+    border: unset;
+    font-family: Rajdhani;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.14px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+}
+.row-six {
+    text-align: center;
+    margin-top:50px;
+}
+button.slick-prev.slick-arrow.slick-disabled {
+    background: red;
+    gap: 0px;
+    opacity: 0px;
+    color: red;
+    appearance: -90 deg;
+}
+button.slick-prev.slick-arrow {
+    background-color: red;
+}
+button.slick-next.slick-arrow {
+    background-color: red;
+}
+
+/* testimonial */
+.testimonals {
+    display: flex;
+}
+.testimonals h6 {
+    display: inline;
 }
