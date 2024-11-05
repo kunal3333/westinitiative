@@ -1,3 +1,5 @@
+// video elemnts
+
 let vid = document.getElementById("myVideo"); 
 
 function playVid() { 
@@ -9,8 +11,7 @@ function pauseVid() {
 } 
 
 
-// slider one
-
+// slider news
 
 $('.new-section').slick({
     infinite: true,
@@ -43,8 +44,6 @@ $('.new-section').slick({
       }
     ]
   });
-
-
 
 //   slider testimonials
 $('.testimonals').slick({
@@ -80,3 +79,13 @@ $('.testimonals').slick({
       }
     ]
   });
+
+
+  // Moboile menu
+
+  $(document).ready(function() {
+    $('#open-button').on('click', function(){
+      $('.menu-wrap').toggleClass('kunal')
+    })
+});  
+

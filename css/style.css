@@ -266,7 +266,7 @@ img.circle-image-inner {
     opacity: 0px;
 }
 
-.col.set {
+.setid {
     border: 1px solid white;
     border-bottom: 3px solid black;
     border-radius: 10px;
@@ -319,7 +319,7 @@ img.circle-image-inner {
     padding: 0 25px 35px 25px;
 }
 
-.col.set:hover {
+.setid:hover {
     background: rgb(196 148 31);
     box-shadow: 0px 0px 7px 0px rgba(43, 52, 59, 0.08);
     border: 1px solid rgb(196 148 31);
@@ -345,6 +345,9 @@ img.circle-image-inner {
 .col.banner-two.right {
     margin-top: 129px;
 }
+.col.banner-two.right p {
+    color: black !important;
+}
 
 button.setting-one {
     width: 58.33px;
@@ -361,7 +364,7 @@ button.setting-one {
     padding: 0px;
     margin: unset;
 }
-
+/* banner five  */
 .container-fluid.five .col.left {
     margin: 0px !important;
     padding: 0px !important;
@@ -397,7 +400,9 @@ span.f {
     text-align: left;
     text-transform: none;
 }
-
+.col.banner-two.five.bg span {
+    color: white;
+}
 .col.banner-two.five.bg p {
     font-family: 'Roboto';
     font-size: 16px;
@@ -722,11 +727,10 @@ form.contact-form {
     margin-top: 150px;
 }
 
-.right {
+/* .right {
     background: url('../images/image\ 26.png') no-repeat center center;
     background-size: cover;
-    /* color: #fff; */
-}
+} */
 
 .right-section .company-info img {
     max-width: 150px;
@@ -811,6 +815,8 @@ ul.list-unstyled {
     font-weight: 700;
     line-height: 30.62px;
     text-align: left;
+    color: #C49421 !important;
+
 }
 .newsletter p {
     font-family: 'Roboto';
@@ -844,8 +850,30 @@ ul.list-unstyled {
     display: flex;
     justify-content: flex-end;
 }
+.form-control {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+}
+.container-fluid.back {
+    position: relative;
+}
+img.backimg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 90%;
+}
 
-@media only screen and (max-width:1366px ) {
+.mobile-navbar {
+    display: none;
+}
+
+
+@media only screen and (max-width:1400px ) {
     h2.address {
         font-size: 13px;
     }
@@ -862,7 +890,7 @@ ul.list-unstyled {
         padding: 13px 0 15px 0;
     }
     .row.set .col:nth-child(3)::before {
-        top: -6px;
+        top: -6px;1400
     }
     .row.set .col:nth-child(4)::before {
         top: -6px;
@@ -897,7 +925,7 @@ ul.list-unstyled {
     .container.bg-text img {
 width: 40px;    }
 .container.bg-text span {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 25px;
 }
 .container.bg-text {
@@ -908,10 +936,10 @@ width: 40px;    }
     width: 50px;
 }
 .banner-two span {
-    font-size: 14px;
+    font-size: 12px;
 }
 .col.banner-two h2 {
-    font-size: 40px;
+    font-size: 50px;
     line-height: 68px;
     margin-bottom: 0px;
 }
@@ -1002,7 +1030,7 @@ svg.svg-inline--fa.fa-circle-user {
 }
 .col.left.form p {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 10px;
     margin-bottom: 20px;
 }
 .col.right p {
@@ -1010,9 +1038,159 @@ svg.svg-inline--fa.fa-circle-user {
 }
 .row.mb-4.set {
     margin: 0px;
+    padding: 0px;
 }
 ul.list-unstyled {
-    gap: 5px;
+    gap: 8px;
     display: grid;
 }
+.container.six span {
+    font-size: 12px;
+}
+.container.test h2 {
+    font-size: 50px;
+}
+a.text-white {
+    font-size: 16px;
+}
+.col.right p {
+    line-height: 18px;
+}
+.newsletter.mb-4 {
+    margin-top: 0px;
+}
+.row.copyright {
+    margin: 10px 0 10px 0;
+}
+
+button.btn.btn-warning {
+    color: white;
+    font-family: 'Rajdhani';
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22.97px;
+    text-align: left;
+    width: 100%;
+    height: 33px;
+}
+}
+@media only screen and (max-width:1366px ) {
+    .col.banner-two.right {
+        width: 50%;
+    }
+    .col.banner-two.right p {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:1200px ){
+    .col.banner-two.five.bg .d-flex.align-items-center.flex-row {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width:992px ){
+    h2.text {
+        margin-left: 5px;
+    }
+    h2.address {
+        font-size: 10px;
+    }
+    .address span {
+        font-size: 10px;
+    }
+    .col.banner-two h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .col.banner-two p {
+        width: 100%;
+    }
+    .col.banner-two.five.bg .d-flex.align-items-center.flex-row {
+        margin-top: 50px;
+    }   
+    .col.banner-two.five.bg p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .col.left.form {
+        margin-left: 40px;
+    }
+    button.slick-prev.slick-arrow {
+        display: none !important;
+    }
+    button.slick-next.slick-arrow {
+        display: none !important;
+    }
+}
+@media only screen and (max-width:768px ){
+
+    .mobile-navbar {
+        display: block;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+    .menu-wrap {
+        position: fixed;
+        right: 0;
+    }
+
+    .menu-wrap.active {
+        transform: translate3d(0px, 0, 0);
+    }
+
+    .menu-wrap .menu .icon-list a {
+        position: relative;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #eee;
+        font-size: 20px;
+        transition: all 0.3s ease;
+    }
+
+    .menu-button {
+        position: absolute;
+        top: 50px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+    }
+
+    .menu-button {
+        right: 45px;
+        z-index: 102;
+        margin-top: -10px;
+        color: #C49421;
+    }
+
+    .menu-wrap {
+        width: 300px;
+        height: 100%;
+        padding: 40px;
+        background-color: black;
+        position: fixed;
+        right: -300px;
+        top: 0;
+        transition: 0.5s;
+    }
+
+    .menu-wrap.kunal {
+
+        right: 0px;
+        width: 40%;
+    }
+
+    button#open-button {
+        top: 10%;
+        left: 90%;
+        background-color: transparent;
+        color: white;
+        border: 0;
+        box-shadow: none;
+    }
+    .topnav-bar {
+        display: none;
+    }
 }
