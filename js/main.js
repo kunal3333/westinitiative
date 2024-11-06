@@ -45,6 +45,8 @@ $('.new-section').slick({
     ]
   });
 
+
+
 //   slider testimonials
 $('.testimonals').slick({
     infinite: true,
@@ -84,8 +86,30 @@ $('.testimonals').slick({
   // Moboile menu
 
   $(document).ready(function() {
-    $('#open-button').on('click', function(){
-      $('.menu-wrap').toggleClass('kunal')
-    })
-});  
+    $('#nav-icon3').click(function() {
+        $(this).toggleClass('open');
+        $('.mobile-navbar').toggleClass('open');
+    });
+});
 
+
+// mid leading 
+$(window).on('load resize orientationchange', function() {
+  $('.slider').each(function(){
+      var $slider = $(this);
+      if ($(window).width() > 576) {  
+          if ($slider.hasClass('slick-initialized')) {
+              $slider.slick('unslick');
+          }
+      }
+      else if ($(window).width() >= 320) {  
+          if (!$slider.hasClass('slick-initialized')) {
+              $slider.slick({
+                  slidesToShow: 1,
+                  slidesToScroll:1 ,
+                  dots:true,
+              });
+          }
+      }
+  });
+});
